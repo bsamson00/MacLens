@@ -1,0 +1,35 @@
+# Build output
+build/
+*.dmg
+*.iconset/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Xcode / SwiftPM (if ever added)
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Signing and notarization credentials (never commit)
+*.p8
+*.p12
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+
+# Local tool / editor settings
+.claude/
+.vscode/
+.idea/
