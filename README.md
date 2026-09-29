@@ -62,7 +62,7 @@ It is a small, dependency-free SwiftUI app. There is no Xcode project, no packag
 
 ### Download
 
-Grab the latest signed and notarized `.dmg` from the Releases page, open it, and drag **MacLens** into **Applications**. It opens with no Gatekeeper warning.
+Grab the latest signed and notarized `.dmg` from the [Releases page](https://github.com/bsamson00/MacLens/releases), open it, and drag **MacLens** into **Applications**. It opens with no Gatekeeper warning.
 
 ### Build it yourself
 
@@ -73,8 +73,8 @@ See [Building from source](#building-from-source) below. It takes one command.
 MacLens compiles straight to a double-clickable app bundle with `swiftc`. No Xcode project is required.
 
 ```sh
-git clone <this-repo-url> maclens
-cd maclens
+git clone https://github.com/bsamson00/MacLens.git
+cd MacLens
 ./build.sh
 open build/MacLens.app
 ```
@@ -133,7 +133,7 @@ Heavy collection runs on a background queue so the interface never blocks. Hardw
 ## Project structure
 
 ```
-maclens/
+MacLens/
 ├── Sources/
 │   ├── App.swift             App entry point, sidebar, navigation, appearance
 │   ├── Models.swift          Plain data models for each section
